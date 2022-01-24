@@ -341,7 +341,7 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '重开吧孩子';
+    if (score <= 49) return '就这点东西还想放假';
     if (score <= 99) return '一年上台阶';
     if (score <= 120) return '两年求突破';
     if (score <= 150) return '三年大变样'
