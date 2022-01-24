@@ -341,10 +341,10 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '没吃饭么这么点分？？？';
-    if (score <= 99) return '还可以只能说';
-    if (score <= 120) return '很强了';
-    if (score <= 150) return '来地球的目的是什么'
+    if (score <= 49) return '重开吧孩子';
+    if (score <= 99) return '一年上台阶';
+    if (score <= 120) return '两年求突破';
+    if (score <= 150) return '三年大变样'
 }
 
 function toStr(obj) {
